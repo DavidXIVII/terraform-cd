@@ -7,5 +7,5 @@ variable "instance_name" {
 variable "key_pem" {
   description = "Full path to AWS key.pem"
   type        = string
-  default     = "/home/david/Downloads/david.pem"
+  default     = "Edit with the full path to your pem key ; usually ~/.ssh/*.pem or ~/Downloads/*.pem"
 }
